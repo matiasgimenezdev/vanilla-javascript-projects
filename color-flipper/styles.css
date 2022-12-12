@@ -1,0 +1,62 @@
+html {
+	box-sizing: border-box;
+	height: 100vh;
+	font-family: 'Roboto', sans-serif;
+	overflow: hidden;
+}
+
+*,
+*::after,
+*::before {
+	box-sizing: inherit;
+}
+
+body {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+section {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	width: 100vw;
+}
+
+.container {
+	padding: 0.8rem;
+	width: 22rem;
+	font-size: 20px;
+	color: white;
+	background-color: black;
+}
+
+.title {
+	display: block;
+	background-color: black;
+	color: white;
+}
+
+.click {
+	margin: 1rem;
+	background-color: white;
+	border: none;
+	box-shadow: 0.2rem 0.2rem black;
+	width: 13rem;
+	height: 2rem;
+	font-size: 16px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.click:hover {
+	transform: scale(1.2, 1.2);
+	transition: transform 0.15s ease-in;
+}
+
+.colour {
+	margin: 0.3rem;
+}
