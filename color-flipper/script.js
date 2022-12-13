@@ -1,6 +1,7 @@
 const $button = document.querySelector('.click');
 const $section = document.querySelector('section');
 const $body = document.querySelector('body');
+let oldColor = '';
 
 const colours = [
 	'plum',
@@ -34,26 +35,31 @@ const getRandomColour = () => {
 };
 
 const flip = () => {
-	const colour = getRandomColour().toLowerCase();
+	let color = getRandomColour().toLowerCase();
+	while (color === oldColor) {
+		console.log('repeated');
+		color = getRandomColour().toLowerCase();
+	}
 	$section.innerHTML = `
         <div class="container">
             <p>
-                background-color: <span class="colour">${colour}</span> 
+                background-color: <span class="color">${color}</span> 
             </p>
         </div>
-        <button class="click">Click me!</button>
+        <button class="click">Change the color!</button>
     `;
 
-	$body.style.backgroundColor = colour;
-	document.querySelector('.colour').style.color = colour;
+	$body.style.backgroundColor = color;
+	document.querySelector('.color').style.color = color;
+	return color;
 };
 
 document.addEventListener('click', (e) => {
 	if (e.target.matches('.click')) {
-		flip();
+		oldColor = flip();
 	}
 });
 
 document.addEventListener('DOMContentLoaded', () => {
-	flip();
+	oldColor = flip();
 });
