@@ -1,4 +1,4 @@
-# Miniproyectos con vanilla javascript
+Miniproyectos con vanilla javascript
 
 <hr>
 
