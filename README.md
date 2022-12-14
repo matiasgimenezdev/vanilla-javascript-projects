@@ -1,8 +1,4 @@
-# vanilla-javascript-projects
-Miniproyectos con vanilla javascript
-# Proyectos con Javascript y HTML/CSS
-
-Estos son los proyectos con Javascript plano, HTML y CSS que hacemos en vivo en el [stream](https://twitch.tv/matiasbaldanza).
+# Miniproyectos con vanilla javascript
 
 <hr>
 
