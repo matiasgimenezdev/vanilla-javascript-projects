@@ -8,4 +8,3 @@ Miniproyectos con vanilla javascript
 | 02  | 2022-12-13 | [Color Flipper](https://github.com/matiasgimenezdev/vanilla-javascript-projects/tree/main/color-flipper)<br>     |
 | 03  | 2022-12-14 | [Sidebar](https://github.com/matiasgimenezdev/vanilla-javascript-projects/tree/main/sidebar)<br>                 |
 | 04  | 2022-12-15 | [Tabs](https://github.com/matiasgimenezdev/vanilla-javascript-projects/tree/main/tabs)<br>                       |
-| 05  | 2022-12-16 | [Navbar](https://github.com/matiasgimenezdev/vanilla-javascript-projects/tree/main/navbar)<br>                   |
